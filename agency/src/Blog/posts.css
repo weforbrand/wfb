@@ -1,0 +1,112 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.grid-container {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px 12px 0 0;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.pagination-btn {
+  background-color: #001f3f;
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-btn:hover {
+  background-color: #001f3f;
+}
+
+.pagination-info {
+  margin: 0 12px;
+  font-size: 18px;
+  color: #333333;
+}
+
+@media screen and (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    padding: 15px;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .pagination-btn {
+    padding: 10px 20px;
+  }
+
+  .pagination-info {
+    font-size: 16px;
+  }
+}
