@@ -1,7 +1,9 @@
 .hero-sec-main {
   position: relative;
   height: 100vh;
-  background-image: url("D:/pranav-digital/agency/public/assets/images/hero-banner4.webp");
+  /* background-image: url("D:/pranav-digital/agency/public/assets/images/hero-banner4.webp"); */
+  background-image: url("../../public/assets/images/hero-banner4.webp");
+
   background-size: cover;
   background-position: center;
   display: flex;
