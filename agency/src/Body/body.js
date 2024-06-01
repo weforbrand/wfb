@@ -1,37 +1,9 @@
 // import React, { useRef } from "react";
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faBriefcase,
-  faChatBubbles,
-  faRocket,
-} from "@fortawesome/free-solid-svg-icons";
 import "../App.css";
 import { IonIcon } from "@ionic/react";
-import { fireStore } from "../DataBase/firebase";
-import { addDoc, collection } from "@firebase/firestore";
 
 const Body = () => {
-  // const inputRefs = useRef({});
-
-  // const ref= collection(fireStore,"Contact form");
-  // const handleSave= async(e)=>{
-  //   e.preventDefault();
-
-  //   let dataToPass={
-  //     name:inputRefs.current['name'].value,
-  //     contact: inputRefs.current['phone'].value,
-  //     email:inputRefs.current['email'].value,
-  //     message:inputRefs.current['message'].value
-  //   };
-
-  //   try{
-  //     addDoc(ref,dataToPass);
-  //   } catch(e){
-  //     console.log(e);
-  //   }
-  // };
-
   return (
     <main>
       <article>
@@ -56,9 +28,7 @@ const Body = () => {
               <ul class="about-list">
                 <li>
                   <div class="about-card">
-                    <div class="card-icon">
-                      {/* <FontAwesomeIcon icon={faBriefcase} /> */}
-                    </div>
+                    <div class="card-icon"></div>
 
                     <h3 class="h3 card-title">Website Development</h3>
 
@@ -79,9 +49,7 @@ const Body = () => {
 
                 <li>
                   <div class="about-card">
-                    <div class="card-icon">
-                      {/* <FontAwesomeIcon icon={faRocket} /> */}
-                    </div>
+                    <div class="card-icon"></div>
 
                     <h3 class="h3 card-title">
                       Search Engine Optimization (SEO)
@@ -104,9 +72,7 @@ const Body = () => {
 
                 <li>
                   <div class="about-card">
-                    <div class="card-icon">
-                      {/* <FontAwesomeIcon icon={faChatBubbles} /> */}
-                    </div>
+                    <div class="card-icon"></div>
 
                     <h3 class="h3 card-title">Social Media Marketing</h3>
 
