@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import LazyLoad from "react-lazyload";
 import { IonIcon } from "@ionic/react";
 import {
   logoTwitter,
@@ -67,7 +66,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="#" class="footer-link">
+                <a href="/industry" class="footer-link">
                   Pricing
                 </a>
               </li>
@@ -109,7 +108,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="#" class="footer-link">
+                <a href="/faq" class="footer-link">
                   Terms & Conditions
                 </a>
               </li>
@@ -127,7 +126,7 @@ const Footer = () => {
               </li>
 
               <li>
-                <a href="#" class="footer-link">
+                <a href="/industry" class="footer-link">
                   Products
                 </a>
               </li>
