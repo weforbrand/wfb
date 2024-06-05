@@ -22,7 +22,7 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/body" element={<Body />} />
+          <Route path="/services" element={<Body />} />
           {/* Use Suspense to show a loading indicator while Posts component is loading */}
           <Route
             path="/blog"
@@ -32,10 +32,10 @@ const App = () => {
               </Suspense>
             }
           />
-          <Route path="/industry" element={<Industry />} />
+          <Route path="/industries" element={<Industry />} />
           <Route path="/process" element={<Process />} />
           <Route path="/cta" element={<CTAComponent />} />
-          <Route path="/whyus" element={<WhyUs />} />
+          <Route path="/about" element={<WhyUs />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
           <Route
