@@ -61,13 +61,7 @@ const Footer = () => {
 
               <li>
                 <a href="/industry" class="footer-link">
-                  Features
-                </a>
-              </li>
-
-              <li>
-                <a href="/industry" class="footer-link">
-                  Pricing
+                  Industries
                 </a>
               </li>
             </ul>
@@ -121,13 +115,13 @@ const Footer = () => {
 
               <li>
                 <a href="/whyus" class="footer-link">
-                  Why
+                  About
                 </a>
               </li>
 
               <li>
                 <a href="/industry" class="footer-link">
-                  Products
+                  Services
                 </a>
               </li>
             </ul>
