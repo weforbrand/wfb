@@ -2,6 +2,10 @@
   padding: 10px;
   background-color: #001f3f !important;
   color: white !important;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .nav-item {
@@ -66,4 +70,8 @@
   .nav-item:not(:last-child) {
     border-bottom: none !important;
   }
+}
+
+body {
+  padding-top: 60px;
 }
