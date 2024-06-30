@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "../src/Navbar/navbar";
 import HeroSection from "../src/HeroSection/herosection";
 import Body from "../src/Body/body";
+import SearchFor from "../src/SearchFor/searchfor";
+import Challenges from "../src/Challenges/challenges";
 import Industry from "../src/Industry/industry";
 import Process from "../src/Process/process";
 import CTAComponent from "../src/CTA/cta";
@@ -23,7 +25,6 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Body />} />
-          {/* Use Suspense to show a loading indicator while Posts component is loading */}
           <Route
             path="/blog"
             element={
@@ -58,6 +59,8 @@ const Home = () => {
     <div>
       <HeroSection />
       <Body />
+      <SearchFor />
+      <Challenges />
       <Industry />
       <Process />
       <CTAComponent />
