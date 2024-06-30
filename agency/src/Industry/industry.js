@@ -100,7 +100,7 @@ const Industry = () => {
 
   return (
     <div className="root-industry">
-      <div className="r-i-h1">Industries We Serve</div>
+      <div className="r-i-h1">Our Expertise Across Multiple Industries</div>
       <div className="line"></div>
 
       <div className="indus-main">
