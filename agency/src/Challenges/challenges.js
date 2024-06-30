@@ -1,7 +1,7 @@
 import React from "react";
 import "./challenges.css";
 
-const MarketingContent = () => {
+const Challenges = () => {
   return (
     <div className="container">
       <Section
@@ -65,4 +65,4 @@ const Section = ({ title, content }) => (
   </div>
 );
 
-export default MarketingContent;
+export default Challenges;
